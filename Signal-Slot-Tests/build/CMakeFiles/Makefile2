@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Dev/QT-Tests
+CMAKE_SOURCE_DIR = /mnt/d/Dev/QT-Tests/Signal-Slot-Tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Dev/QT-Tests/build
+CMAKE_BINARY_DIR = /mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/example.dir/all
+all: CMakeFiles/Signal-Slot-Tests.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/example.dir/clean
+clean: CMakeFiles/Signal-Slot-Tests.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/example.dir
+# Target rules for target CMakeFiles/Signal-Slot-Tests.dir
 
 # All Build rule for target.
-CMakeFiles/example.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Dev/QT-Tests/build/CMakeFiles --progress-num=1,2 "Built target example"
-.PHONY : CMakeFiles/example.dir/all
+CMakeFiles/Signal-Slot-Tests.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal-Slot-Tests.dir/build.make CMakeFiles/Signal-Slot-Tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal-Slot-Tests.dir/build.make CMakeFiles/Signal-Slot-Tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles --progress-num=1,2 "Built target Signal-Slot-Tests"
+.PHONY : CMakeFiles/Signal-Slot-Tests.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/example.dir/rule
+CMakeFiles/Signal-Slot-Tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Signal-Slot-Tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/Signal-Slot-Tests.dir/rule
 
 # Convenience name for target.
-example: CMakeFiles/example.dir/rule
-.PHONY : example
+Signal-Slot-Tests: CMakeFiles/Signal-Slot-Tests.dir/rule
+.PHONY : Signal-Slot-Tests
 
 # clean rule for target.
-CMakeFiles/example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/clean
-.PHONY : CMakeFiles/example.dir/clean
+CMakeFiles/Signal-Slot-Tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal-Slot-Tests.dir/build.make CMakeFiles/Signal-Slot-Tests.dir/clean
+.PHONY : CMakeFiles/Signal-Slot-Tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

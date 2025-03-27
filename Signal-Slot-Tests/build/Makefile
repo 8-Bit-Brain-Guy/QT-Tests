@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Dev/QT-Tests
+CMAKE_SOURCE_DIR = /mnt/d/Dev/QT-Tests/Signal-Slot-Tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Dev/QT-Tests/build
+CMAKE_BINARY_DIR = /mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/build/CMakeFiles /mnt/d/Dev/QT-Tests/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles /mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example
+# Target rules for targets named Signal-Slot-Tests
 
 # Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example
-.PHONY : example
+Signal-Slot-Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Signal-Slot-Tests
+.PHONY : Signal-Slot-Tests
 
 # fast build rule for target.
-example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-.PHONY : example/fast
+Signal-Slot-Tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal-Slot-Tests.dir/build.make CMakeFiles/Signal-Slot-Tests.dir/build
+.PHONY : Signal-Slot-Tests/fast
 
 Signal-Slot-Tests.o: Signal-Slot-Tests.cpp.o
 .PHONY : Signal-Slot-Tests.o
 
 # target to build an object file
 Signal-Slot-Tests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Signal-Slot-Tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal-Slot-Tests.dir/build.make CMakeFiles/Signal-Slot-Tests.dir/Signal-Slot-Tests.cpp.o
 .PHONY : Signal-Slot-Tests.cpp.o
 
 Signal-Slot-Tests.i: Signal-Slot-Tests.cpp.i
@@ -142,7 +142,7 @@ Signal-Slot-Tests.i: Signal-Slot-Tests.cpp.i
 
 # target to preprocess a source file
 Signal-Slot-Tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Signal-Slot-Tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal-Slot-Tests.dir/build.make CMakeFiles/Signal-Slot-Tests.dir/Signal-Slot-Tests.cpp.i
 .PHONY : Signal-Slot-Tests.cpp.i
 
 Signal-Slot-Tests.s: Signal-Slot-Tests.cpp.s
@@ -150,7 +150,7 @@ Signal-Slot-Tests.s: Signal-Slot-Tests.cpp.s
 
 # target to generate assembly for a file
 Signal-Slot-Tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/Signal-Slot-Tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal-Slot-Tests.dir/build.make CMakeFiles/Signal-Slot-Tests.dir/Signal-Slot-Tests.cpp.s
 .PHONY : Signal-Slot-Tests.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... example"
+	@echo "... Signal-Slot-Tests"
 	@echo "... Signal-Slot-Tests.o"
 	@echo "... Signal-Slot-Tests.i"
 	@echo "... Signal-Slot-Tests.s"
