@@ -1,0 +1,3 @@
+/mnt/d/Dev/QT-Tests/build/CMakeFiles/example.dir
+/mnt/d/Dev/QT-Tests/build/CMakeFiles/edit_cache.dir
+/mnt/d/Dev/QT-Tests/build/CMakeFiles/rebuild_cache.dir
