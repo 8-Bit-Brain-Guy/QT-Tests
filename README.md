@@ -1,6 +1,6 @@
-# QT-Tests
-Repository for testing gui development using QT
-
+# QT-Tests: Repository for testing gui development using QT
+<br>
+<br>
 
 # Kompilieren und ausführen:
 
