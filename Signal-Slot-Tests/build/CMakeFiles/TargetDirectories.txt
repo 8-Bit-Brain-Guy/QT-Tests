@@ -1,3 +1,0 @@
-/mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles/Signal-Slot-Tests.dir
-/mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles/edit_cache.dir
-/mnt/d/Dev/QT-Tests/Signal-Slot-Tests/build/CMakeFiles/rebuild_cache.dir
